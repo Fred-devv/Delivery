@@ -140,11 +140,11 @@ main {
 .banner-item {
   background-image: url(images/head.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center right;
-  background-size: 100%;
   padding: 68px;
   border-radius: 10px;
+  background-color: #FFF1B8;
 }
 
 .banner-item--title {
@@ -158,7 +158,7 @@ main {
 
 .banner-item--subtitle {
   color: #302c34;
-  font-size: 39px;
+  font-size: 24px;
   font-weight: 400;
   max-width: 50%;
   margin: 0;
@@ -172,6 +172,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .products-header--title {
